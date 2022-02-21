@@ -1,0 +1,104 @@
+body{
+    background: #faf7f5 ;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cabecalho img {
+    width: 15%;
+}
+
+.barraNavegacao ul {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.barraNavegacao ul li {
+    list-style-type: none;
+    padding-right: 30px;
+    font: #003767;
+    font-weight: bold;
+}
+
+.barraNavegacao ul li:hover {
+    text-decoration: underline;
+}
+.areaLogin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+.formularioAcesso{  
+    border: #00000000;
+    
+}
+form input {
+	width: 20%;
+}
+.botaoAcesso {
+    display: flex;
+    flex-direction: row;
+}
+.cadeado {
+    display: flex;
+    flex-flow: row;
+    width: 15%;
+}
+.abraSuaConta {
+    width:20%;
+	padding: 15px 0;
+	color: #003767;
+	font-weight: bold;
+	font-size: 30px;
+	border:#003767;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.abraSuaConta:hover {
+    background: #003767;
+    font-style: white;
+
+}
+.banner-principal{
+    display: flex;
+    flex-direction:column ;
+
+}
+.banner-container {
+    display: flex;
+    flex-direction:column ;
+    width: 100%;
+    height: 450px;
+    justify-content: center;
+    background-image: url("../imagens/main-banner-home-empresas-1440x450.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+    
+}
+.bannerTexto {
+  color: white;  
+  margin: 120px;
+  padding: 10px;
+
+}
+.bannerTexto h3 {
+    font-size: 2em;
+    font-style: italic;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}
+.bannerTexto p{
+ display: flex;
+ flex-direction: row;
+ font-size: 30px;
+}
