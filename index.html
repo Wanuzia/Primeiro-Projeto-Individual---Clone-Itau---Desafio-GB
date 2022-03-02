@@ -3,65 +3,180 @@
     <head>
         <meta charset="UTF-8">
         <title>Itaú Empresas | Pessoa Jurídica</title>
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/style.css">
+       
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
-
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/cabecalho.css">
+        <link rel="stylesheet" href="css/banner.css">
+        <link rel="stylesheet" href="css/facilidades.css">
+        <link rel="stylesheet" href="css/solucoes.css">
+        <link rel="stylesheet" href="css/maquininha-rede.css">
+   
     </head>
     <body>
-        <header>
-            <div class="cabecalho">
-                <img src="imagens/logo-itau-empresas.png" alt="logo Itaú">
-                <div class="barraNavegacao">
-                   <nav>
+        <header class="cabecalho-container">
+                   <img class="imagem-cabecalho" src="imagens/logo-itau-empresas.png" alt="logo Itaú">
+                   <nav class="barraNavegacao-container">
                        <ul> 
-                            <li class="lista-barra-navegacao">
+                            <li class="item-barra-navegacao">
                                 <span>para empresas</span>
                             </li>
-                            <li class="lista-barra-navegacao">
+                            <li class="item-barra-navegacao">
                                 <span>para você</span>
                             </li>
-                            <li class="lista-barra-navegacao">
+                            <li class="item-barra-navegacao">
                                 <span>ajuda</span>
                             </li>
-                            <li class="lista-barra-navegacao">
+                            <li class="item-barra-navegacao">
                                 <span>busca</span>
                             </li>   
                         </ul>
                     </nav>
-                    </div>
                 <section class="areaLogin">
-                   <div class="FormularioAcesso">
-                       <form >
-                           <label for="agencia"></label>
-                           <input type="text" id="agencia" required placeholder="agencia">
+                    <div class="formulario-container">
+                        <form class="FormularioAcesso">
+                            <label for="agencia"></label>
+                            <input type="text" id="agencia" required placeholder="agência">
 
-                           <label for="conta"></label>
-                           <input type="text" id="conta" required placeholder="conta">
-                       </form>
-                   </div>
-                   <div>
-                   <button class="cadeado"><img src="imagens/icone-cadeado.jpg"></button> 
-                    <button class="botaoAcesso"> + acessos</button>             
-                   </div>
+                            |
+
+                            <label for="conta"></label>
+                            <input type="text" id="conta" required placeholder="conta">
+                        </form>
+                            <div class="botoes-acesso">                       
+                                <button class="cadeado" > <img class="cadeado-imagem"src="imagens/trancar.png"> </button> 
+                                <p>+</p>
+                                <button class="botaoAcesso">acessos</button>             
+                            </div>
+                    </div>
                 </section>
-                <div class="abraSuaConta">
-                    abra sua conta
-                </div>
-            </div>
+                    <div class="abraSuaConta">
+                        abra sua conta
+                    </div>
+            
         </header> 
         <main>
             <section class="banner-principal">
                 <div class="banner-container">
                     <div class="bannerTexto">
                        <h3>começar o ano do jeito <br>certo</h3>
+                       <br>
                        <p>preparamos as melhores soluções <br>para apoiar seu negócio</p>
-                       <button class="botaoDuvidas"> dúvidas </button>
+                       <button class="botaoDuvidas"><img src="imagens/interrogation.png" alt="Ponto de interrogação"> dúvidas </button>
                     </div >
                 </div>
             </section>
+            <section class="facilidades-container">
+                <div class="facilidades-texto-cards">
+                    <h3>facilidades Itaú empresas</h3>
+                    <div class="facilidades-cards-container">
+                        <div class="card">
+                            <img src="imagens/seta2.png" alt="Seta para a direita" class="imagem-card">
+                            <h1>abra sua conta</h1>
+                            <p>abra sua conta 100% online</p>
+                        </div >
+                        <div class="card">
+                                <img src="imagens/icon.png" alt="" class="imagem-card">
+                                <h1>crédito</h1>
+                                <p>conheça os tipos de crédito para apoiar o momento do seu negócio</p>
+                        </div>
+                        <div class="card">
+                                <img src="imagens/trancar.png" alt="" class="imagem-card">
+                                <h1>cheque especial</h1>
+                                <p>tenha 5 dias sem juros para imprevistos</p>
+                        </div>
+                    </div>
+                </div>  
+            </section>
+            <section class="conheca-solucoes-container">
+                <div class="solucoes-texto-cards">
+                    <h3>outras soluções para apoiar o seu negócio</h3>
+                    <p>conheça nossas soluções</p>
+                    <div class="solucoes-cards-container"> 
+                            <div class="card">
+                                <img src="" alt="" class="imagem-card">
+                                <h1>crédito</h1>
+                                <p> conte com soluções pensadas para o perfil da sua empresa</p>
+                            </div>
+                            <div class="card">
+                                <img src="" alt="" class="imagem-card">
+                                <h1>cartão empresarial</h1>
+                                <p>1ª anuidade zero para contratações online</p>
+                            </div>
+                            <div class="card">
+                                <img src="" alt="" class="imagem-card">
+                                <h1>maquininha de cartão</h1>
+                                <p>receba suas vendas feitas no crédito à vista em dois dias úteis</p>
+                            </div>
+                            <div class="card">
+                                <img src="" alt="" class="imagem-card">
+                                <h1>seguros</h1>
+                                <p>tenha a solução ideal para o seu negócio</p>
+                            </div>
+                            <div class="card">
+                                <img src="" alt="" class="imagem-card">
+                                <h1>pix</h1>
+                                <p>transfira e receba pagamentos em 10 segundos</p>
+                            </div>
+                            <div class="card">
+                                <img src="" alt="" class="imagem-card">
+                                <h1>boletos</h1>
+                                <p>receba o valor dos boletos pagos em 2 dias</p>
+                            </div>
+                            <div class="card">
+                                <img src="" alt="" class="imagem-card">
+                                <h1>pague salários</h1>
+                                <p>pague salários e emita holerites parfa funcionários</p>
+                            </div>
+                            <div class="card">
+                                <img src="" alt="" class="imagem-card">
+                                <h1>investimentos</h1>
+                                <p>opções para fazer seu dinheiro render</p>
+                            </div>
+                            <div class="card">
+                                <img src="" alt="" class="imagem-card">
+                                <h1>conta PJ</h1>
+                                <p>conheça nossos pacotes de serviços</p>
+                            </div>
+                    </div>
+                    
+                </div>
+            </section>
+            <section class="maquininha-rede-container">
+                <div>
+                <img src="imagens/maquininha-rede.jpg" alt="maquininha de cartão da rede">
+                <h3>maquininha rede</h3>
+                <p>Você recebe suas vendas feitas à vista no crédito em 2 dias, cria catálogos online e gera links de pagamentos para vendas digitais.</p> 
+                <br>
+                <p>Só no Itaú Empresas e Rede você pode reduzir o valor do seu aluguel em até 100% de acordo com o seu faturamento e ainda conta com o Agregador de Cartões, para consultar suas vendas feitas com qualquer maquininha em um só lugar.</p>
+                <button class="botaoSaberMais">saber mais</button>
+            </div>
+            </section>
+            <section class="credito-negocio">
+                <div class="credito-negocio-container">
+                    <h2>crédito para apoiar o seu negócio</h2>
+                    <p>soluções que se adequam a necessidade da sua empresa</p>
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <h3>capital de giro</h3>
+                    <p>crédito na hora e até 4 anos para pagar</p>
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <h3>cheque especial</h3>
+                    <p>participe e conte com ofertas e benefícios personalizados</p>
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <h3>antecipação recebíveis</h3>
+                    <p>antecipe valores a receber e organize seu caixa</p>
+                </div>
+            </section>
+        
         </main>
         <footer>
 

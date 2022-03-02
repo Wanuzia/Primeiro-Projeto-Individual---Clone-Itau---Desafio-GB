@@ -1,0 +1,298 @@
+body{
+    background: #faf7f5 ;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif
+}
+.cabecalho-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between   ;
+    align-items: center;
+    width: 100%;
+    background: #faf7f5;
+    position: fixed;
+ }
+.imagem-cabecalho {
+    width: 142px;
+    height: 40px;
+    margin-left: 10px;
+    padding: 2px;
+
+}
+.barraNavegacao-container{
+    display:flex;    
+    flex-direction: row;
+    align-items: center;
+    width: 40%;
+    justify-content: space-around
+}
+.barraNavegacao-container ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.barraNavegacao-container ul li {
+    list-style-type: none;
+    padding: 10px;
+    font: #003767;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.item-barra-navegacao:hover {
+
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+.areaLogin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.formulario-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.formularioAcesso{  
+    border: #00000000;
+    width: 50px;
+    display: flex;
+}
+
+.form{
+    display: flex;
+}
+form input {
+    width: 20%;
+    height: 20px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    font-size: 13.5px;
+    text-align: center;
+    border-radius: 5px;
+}
+.botoes-acesso{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.cadeado {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    margin-left: 2px;
+}
+.cadeado-imagem {
+    display: flex;
+    width: 30px;
+    
+}
+.botoes-acesso p {
+    align-items: center;
+    font-size: 30px;
+    margin: 5px;
+}
+.botaoAcesso {
+    display: flex;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+    background: none;
+    font-size: 20px;
+}
+.botaoAcesso:hover {
+    cursor: pointer;
+}
+
+.abraSuaConta {
+    width: 130px;
+    height: 10px;
+    margin: 10px;
+    text-align: center;    
+    color: #003767;
+	font-weight: bold;
+	font-size: 15px;
+	border:2px solid #003767;
+	transition: 1s all;
+	cursor: pointer;
+    border-radius: 5px;
+    align-items: center;
+    padding: 13px;
+}
+
+.abraSuaConta:hover {
+    background: #003767;
+    color: white;
+
+}
+.banner-principal{
+    display: flex;
+    flex-direction:column ;
+    background-image: url("../imagens/main-banner-home-empresas-1440x450.jpg");
+    background-position: center;
+}
+.banner-container {
+    display: flex;
+    flex-direction:column ;
+    width: 100%;
+    height: 450px;
+    justify-content:  center;
+   
+}
+.bannerTexto {
+  color: white;  
+  margin: 10px;
+  padding: 20px;
+  line-height: 30px;
+
+}
+.bannerTexto h3 {
+    font-size: 2.2em;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    line-height: 45px;
+}
+.bannerTexto p{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    line-height: 45px;
+}
+.botaoDuvidas {
+    color: #efe9e5;
+    background: #003767;
+    width: 130px;
+    height: 48px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    position:fixed;
+    top: 400px; 
+    bottom: 30px;
+    margin-left: 1080px;
+    align-items: center;
+}
+.botaoDuvidas img {
+    width: 22px;
+    align-items: center;
+    color: #faf7f5;
+}
+.botaoDuvidas:hover {
+    cursor: pointer;
+}
+.facilidades-container {
+    background: #003767;
+    display: flex;
+    width: 100%;
+    height: 380px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px 0px 64px;
+}
+.facilidades-texto-cards {
+    align-items: center;
+}
+
+.facilidades-container h3 {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    height: fit-content;
+    padding-left: 60px;
+}
+
+.facilidades-cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card {
+    border-radius: 5px;
+    padding: 5px;
+    margin: 50px;
+    width: 230px;
+    height: 200px;
+    transition: all 0.3s ease-out;
+    background-color: #faf7f5;
+    color: black;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem-card{
+    width: 50px;
+    height: 50px;
+}
+ 
+.card p {
+    color: #a3a5ae;
+    font-size: 15px;
+    line-height: 20px;
+}
+  
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+  
+  .conheca-solucoes-container{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .conheca-solucoes-container h3 {
+    color: #003767;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .solucoes-texto-cards {
+      height: fit-content;
+      flex-direction: row;
+      flex-wrap: wrap;
+     
+  }
+  .solucoes-texto-cards>p {
+    font-size: 15px;
+    color: #000000;
+  }
+  .solucoes-cards-container{
+    background: #ffffff;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 1%
+    ;
+  }
+  .maquininha-rede-container {
+      background: #efe9e5;
+      width: 100%;
+  }
+  .maquininha-rede-container h3 {
+    color: #003767;
+    font-size: 25px;
+    font-weight: bold;
+  }
+ .botaoSaberMais {
+     background: #ff6400;
+     color: #ffffff;
+     font-weight: bold;
+ }

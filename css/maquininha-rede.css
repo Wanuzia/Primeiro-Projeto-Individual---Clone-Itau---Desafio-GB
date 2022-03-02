@@ -1,0 +1,15 @@
+
+  .maquininha-rede-container {
+    background: #efe9e5;
+    width: 100%;
+}
+.maquininha-rede-container h3 {
+  color: #003767;
+  font-size: 25px;
+  font-weight: bold;
+}
+.botaoSaberMais {
+   background: #ff6400;
+   color: #ffffff;
+   font-weight: bold;
+}
