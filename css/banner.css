@@ -1,8 +1,12 @@
 .banner-principal{
     display: flex;
     flex-direction:column ;
-    background-image: url("../imagens/main-banner-home-empresas-1440x450.jpg");
+    background: rgba(0, 0, 0, 0.4) url("../imagens/main-banner-home-empresas-1440x450.jpg");
+    height: 100%;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
 }
 .banner-container {
     display: flex;
@@ -19,7 +23,7 @@
   line-height: 30px;
 
 }
-.bannerTexto h3 {
+.bannerTexto h2 {
     font-size: 2.2em;
     font-weight: bold;
     display: flex;
@@ -32,24 +36,36 @@
     font-size: 30px;
     line-height: 45px;
 }
+/*.botaoDuvidas::before {
+    content: '\e908';
+    color: #FFFFFF;
+    background: transparent;
+    border-radius: 50px;
+    font-size: 12px;
+    margin: 0 10px 0 0;
+    padding: 3px;
+    float: left;
+    border: 1px solid;
+    width: 22px;
+} */
 .botaoDuvidas {
     color: #efe9e5;
     background: #003767;
     width: 130px;
     height: 48px;
+    border: transparent;
     border-radius: 30px;
     font-weight: bold;
     font-size: 18px;
     position:fixed;
     top: 400px; 
-    bottom: 30px;
+    bottom: 60px;
     margin-left: 1080px;
-    align-items: center;
+   
 }
 .botaoDuvidas img {
     width: 22px;
-    align-items: center;
-    color: #faf7f5;
+  
 }
 .botaoDuvidas:hover {
     cursor: pointer;

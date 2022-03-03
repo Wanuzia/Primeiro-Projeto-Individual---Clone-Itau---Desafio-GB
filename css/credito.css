@@ -1,21 +1,21 @@
-.conheca-solucoes-container{
+.credito-container{
     width: 100;
   }
-  .solucoes-titulo {
+  .credito-titulo {
     width: 600px;   
     margin-left: 200px;
     line-height: 60px;
 }
-  .solucoes-titulo>h2 {
+  .credito-titulo>h2 {
     color: #003767;
     font-size: 27px;
     font-weight: bold;
   }
-   .solucoes-titulo>p {
+   .credito-titulo>p {
     font-size: 20px;
     color: #000000;
   }
-  .solucoes-cards-container{
+  .credito-cards-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
