@@ -4,7 +4,7 @@ O Desafio consiste em clonar a página do Itaú (em duas semanas), como forma de
 conhecimentos que estão sendo abordados durante os cursos na plataforma Alura.
 
 
-⌛A menos de dois dias para a entrega do projeto, status atual:
+⌛Chegou o dia para a entrega do projeto, status atual:
 
 ✅ Ícones e imagens foram incluídos, mas de fontes um pouco ou muito diferentes dos ícones da página original;
 
@@ -14,8 +14,8 @@ conhecimentos que estão sendo abordados durante os cursos na plataforma Alura.
 
 𐄂 Necessito ainda melhorar o posicionamento e respeitar os distanciamentos iguais a da página matriz (itaú empresas).
 
-𐄂 A única seção que não consegui fazer um posicionamento parecido é na seção .outras-soluções.
-Mesmo com o flex estou enfrentando desafios para colocar cada item no lugar correspondente ao modelo original.
+𐄂 A única seção que não consegui fazer um posicionamento parecido foi na seção .outras-soluções.
+com a ajuda de colegas do Programa Desenvolve, superei os desafios para colocar cada item no lugar correspondente ao modelo original.
 
 𐄂 Falta inserir ao menos uma função com javaScript, para praticar mais a interação entre as linguagens.
 
