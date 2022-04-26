@@ -1,8 +1,7 @@
 .banner-principal{
     display: flex;
     flex-direction:column ;
-    background: rgba(0, 0, 0, 0.4) url("../imagens/main-banner-home-empresas-1440x450.jpg");
-    height: 100%;
+    background: rgba(0, 0, 0, 0.4) url("../imagens/banner1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

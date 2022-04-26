@@ -45,7 +45,7 @@
     border-left: 5px solid #003767;
     }
     .texto-imagem-container1 {
-      background: rgba(0, 0, 0, 0.4) url("../imagens/mulher-empreendedora.jpg");
+      background: rgba(0, 0, 0, 0.4) url("../imagens/casal-sentado.jpeg");
       width: 540px;
       height: 480px;
       background-position: center;
@@ -59,7 +59,7 @@
       margin-top: 300px;
     }
     .texto-imagem-container2 {
-      background: rgba(0, 0, 0, 0.4) url("../imagens/blog-itau-empresas.jpg");
+      background: rgba(0, 0, 0, 0.4) url("../imagens/blog.svg");
       width: 540px;
       height: 225px;
       background-position: center;
@@ -72,7 +72,7 @@
   }
 
    .texto-imagem-container3 {
-      background: rgba(0, 0, 0, 0.4) url("../imagens/podcast-itau.jpg");
+      background: rgba(0, 0, 0, 0.4) url("../imagens/solucoes-negocio.webp");
       width: 255px;
       height: 225px;
       background-position: center;
@@ -82,7 +82,7 @@
       
   }
 .texto-imagem-container4 {
-      background: rgba(0, 0, 0, 0.4) url("../imagens/abrir-conta-mei.jpg");
+      background: rgba(0, 0, 0, 0.4) url("../imagens/woman-transparent.png");
       width: 255px;
       height: 225px;
       background-position: center;
